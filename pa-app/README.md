@@ -23,7 +23,7 @@ This package command execute maven Unit test
 
 ## Authors
 
-* **Paulo Araujo** - *Initial version* - [paaraujogit](https://github.com/paaraujogit)
+* **Paulo Bento** - *Initial version* - [paaraujogit](https://github.com/paaraujogit)
 
 ## License
 
