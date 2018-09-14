@@ -37,4 +37,36 @@ public class AppTest
 		App.main(null);
 		assertTrue(true);
 	}
+    
+    @DisplayName("Third Test - add")
+	@Test
+	void testAdd() {
+    	App ap = new App();
+    	ap.add(1,1);
+		assertTrue(true);
+	}
+    
+    @DisplayName("Fourth Test - sub")
+	@Test
+	void testSub() {
+    	App ap = new App();
+    	ap.sub(1,1);
+		assertTrue(true);
+	}
+    
+    @DisplayName("Fifth Test - mul")
+	@Test
+	void testMul() {
+    	App ap = new App();
+    	ap.mul(1,1);
+		assertTrue(true);
+	}
+    
+    @DisplayName("Sixth Test - div")
+	@Test
+	void testDiv() {
+    	App ap = new App();
+    	ap.div(1,1);
+		assertTrue(true);
+	}
 }
